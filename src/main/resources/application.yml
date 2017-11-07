@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/relevant-spring/private-config-repo
+server:
+  port: 8888
